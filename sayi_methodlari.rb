@@ -27,3 +27,17 @@ puts 65.2.kind_of? Float # true doner
 # Tek veya Cift Oldugunu Kontrol Etme
 puts 14.even? # even methodu nesne cift sayi ise true, degilse false dondurur.
 puts 5.even? # false doner
+
+puts 15.odd? # odd methodu nesne tek sayi ise true dondurur, cift ise false dondurur.
+puts 12.odd? # false doner
+
+# Rastgele Sayi Uretmek
+puts rand #rastgele Float sayi uretir.
+puts rand 10  # 0 - 9 arasi bir sayi uretir.
+
+# MATH Kutuohanesi; trigonametrik ve geometrik gibi ileri duzey matematiksel islemleri
+# gerceklestirebilmek icin kullanilan bir kutuphanedir.
+puts Math::PI #pi sayisi
+puts Math::E #Euler sayisi
+
+#ONEMLI NOT:: Kutuphane sabitlerini kullanabilmek icin :: operatorunu kullanmamiz gerekmektedir.
